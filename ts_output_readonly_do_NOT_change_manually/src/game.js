@@ -48,7 +48,7 @@ var game;
     }
     function communityUI(communityUI) {
         game.currentCommunityUI = communityUI;
-        log.info("Game got communityUI:", communityUI);
+        log.info("Game 123456 communityUI:", communityUI);
         // If only proposals changed, then do NOT call updateUI. Then update proposals.
         var nextUpdateUI = {
             playersInfo: [],
@@ -106,7 +106,7 @@ var game;
     }
     game.getCellStyle = getCellStyle;
     function updateUI(params) {
-        log.info("Game got updateUI:", params);
+        log.info("Game got updateUI ssqr:", params);
         game.didMakeMove = false; // Only one move per updateUI
         game.currentUpdateUI = params;
         clearAnimationTimeout();
