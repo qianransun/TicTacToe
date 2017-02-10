@@ -57,7 +57,7 @@ module game {
 
   export function communityUI(communityUI: ICommunityUI) {
     currentCommunityUI = communityUI;
-    log.info("Game got communityUI:", communityUI);
+    log.info("Game 123456 communityUI:", communityUI);
     // If only proposals changed, then do NOT call updateUI. Then update proposals.
     let nextUpdateUI: IUpdateUI = {
         playersInfo: [],
